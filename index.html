@@ -22,12 +22,13 @@
 
 
     <div id="hihi">
-        <h1>{{message}}</h1>
+        <h1>{{message.toLocaleUpperCase() }}</h1>
+        <input type="text" v-model="message">
     </div>
 
-  
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
+

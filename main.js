@@ -1,7 +1,7 @@
-var greetings = new Vue ({
+var travel =  new Vue ({
     el: '#hihi',
     data: {
-        message: 'Hi from Africa!'
+        message: 'shopping list app'
     }
  })
 
